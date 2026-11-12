@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Firebase service account credentials
+*firebase-adminsdk*.json
+service-account*.json
+
+# Private student data
+private-data/
+
+# Netlify local files
+.netlify/
+
+# Backup files
+*.backup
+* - backup.*
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
